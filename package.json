@@ -1,6 +1,6 @@
 {
   "name": "bus-com-ua-parser",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "The package which will parse bus.com.ua for you 😘",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/vitaliykreminskiy/bus-com-ua-parser/issues"
   },
-  "homepage": "https://github.com/vitaliykreminskiy/bus-com-ua-parser#readme"
+  "homepage": "https://github.com/vitaliykreminskiy/bus-com-ua-parser#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "iconv-lite": "^0.6.0",
+    "request": "^2.88.2"
+  }
 }
